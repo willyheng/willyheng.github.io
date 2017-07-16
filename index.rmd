@@ -1,6 +1,9 @@
 ---
 title: Hello
 layout: default
+output: 
+  md_document:
+    variant: markdown_github
 ---
 
 # Hola
@@ -14,3 +17,9 @@ print(a + b)
 
 # Testing 
 
+```{r}
+x <- rnorm(100)
+y <- rnorm(100)
+plot(y, x)
+
+```
