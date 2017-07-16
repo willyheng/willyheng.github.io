@@ -3,6 +3,7 @@ title: Hello
 layout: default
 ---
 
+# Hola
 Hello!
 
 ```{r}
