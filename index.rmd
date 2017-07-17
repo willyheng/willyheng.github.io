@@ -23,3 +23,13 @@ y <- rnorm(100)
 plot(y, x)
 
 ```
+
+
+```{r}
+x <- rnorm(100)
+y <- 5*x + 3 + rnorm(100)
+model <- lm(y ~ x)
+summary(model)
+plot(y, x)
+
+```
