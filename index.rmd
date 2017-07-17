@@ -33,3 +33,7 @@ summary(model)
 plot(y, x)
 
 ```
+
+```{r}
+summary(x)
+```

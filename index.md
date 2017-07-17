@@ -35,21 +35,28 @@ summary(model)
     ## 
     ## Residuals:
     ##      Min       1Q   Median       3Q      Max 
-    ## -2.19400 -0.62118  0.06202  0.48526  2.93268 
+    ## -2.45807 -0.50716 -0.03206  0.59792  2.21960 
     ## 
     ## Coefficients:
     ##             Estimate Std. Error t value Pr(>|t|)    
-    ## (Intercept)  3.06883    0.09144   33.56   <2e-16 ***
-    ## x            5.01343    0.10344   48.47   <2e-16 ***
+    ## (Intercept)  2.87708    0.09860   29.18   <2e-16 ***
+    ## x            4.88800    0.09284   52.65   <2e-16 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 0.913 on 98 degrees of freedom
-    ## Multiple R-squared:  0.9599, Adjusted R-squared:  0.9595 
-    ## F-statistic:  2349 on 1 and 98 DF,  p-value: < 2.2e-16
+    ## Residual standard error: 0.9854 on 98 degrees of freedom
+    ## Multiple R-squared:  0.9659, Adjusted R-squared:  0.9655 
+    ## F-statistic:  2772 on 1 and 98 DF,  p-value: < 2.2e-16
 
 ``` r
 plot(y, x)
 ```
 
 ![](index_files/figure-markdown_github/unnamed-chunk-3-1.png)
+
+``` r
+summary(x)
+```
+
+    ##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+    ## -2.93195 -0.79397  0.09124 -0.03526  0.55111  2.52679
