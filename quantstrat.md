@@ -1,3 +1,5 @@
+Quantstrat
+
 ``` r
 library(quantstrat)
 ```
