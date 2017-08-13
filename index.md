@@ -1,3 +1,6 @@
+Navigation:
+[__quantstrat__](quantstrat.md)
+
 Hola
 ====
 
