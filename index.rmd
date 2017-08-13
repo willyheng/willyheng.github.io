@@ -6,6 +6,8 @@ output:
     variant: markdown_github
 ---
 
+[__quantstrat__](quantstrat.md)
+
 # Hola
 Hello!
 
