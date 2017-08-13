@@ -1,4 +1,6 @@
-Quantstrat
+---
+title: Quantstrat
+---
 
 ``` r
 library(quantstrat)
